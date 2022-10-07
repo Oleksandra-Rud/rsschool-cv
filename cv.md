@@ -1,9 +1,11 @@
 # Rudchenko Oleksandra
 ***
-## Frontend Developer, Marketing Specialist
 
+## Frontend Developer, Marketing Specialist
 ***
+
 ### Contact Info:
+***
 - *Location: T4N, Red Deer, Alberta, Canada*
 - *email: sandyrud.com@gmail.com*
 
