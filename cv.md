@@ -52,6 +52,7 @@ I was a content manager of few online shops (support and filling). Also I am a b
 ### Education:
 ***
 Master's degree in Medical Devices and Systems
+Basic level in SheCodes courses
 
 ### Languages
 ***
