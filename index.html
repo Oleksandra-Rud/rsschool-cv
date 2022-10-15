@@ -56,7 +56,7 @@
       <div class="code-centr">
         <pre id="code-style">
         <code>
-          function formatDate() {
+              function formatDate() {
               let now = new Date();
               let days = [
                 "Sunday",
@@ -68,18 +68,18 @@
                 "Saturday",
               ];
               let dayW = days[now.getDay()];
-
               let hours =
-          now.getHours() &lt; 10 ? "0" + now.getHours() : now.getHours();
-
+              now.getHours() &lt; 10 ?
+              "0" + now.getHours() : now.getHours();
               let minutes =
-          now.getMinutes() &lt; 10 ? "0" + now.getMinutes() : now.getMinutes();
+              now.getMinutes() &lt; 10 ?
+              "0" + now.getMinutes() : now.getMinutes();
 
               let fullDate = `${dayW}  ${hours}:${minutes}`;
-            let dataReload = document.querySelector("#day-today");
-          dataReload.innerHTML = `${fullDate}`;
-          }
-          formatDate();
+              let dataReload = document.querySelector("#day-today");
+              dataReload.innerHTML = `${fullDate}`;
+              }
+              formatDate();
         </code>
       </pre>
       </div>
