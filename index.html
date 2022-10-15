@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <title>Oleksandra Rudchenko CV</title>
+  </head>
+  <body>
+    <header>
+      <h1>Oleksandra Rudchenko</h1>
+      <h3>Frontend Developer, Marketing Specialist</h3>
+      <div class="near-image">
+        <img src="Oleksandra.jpg" alt="present:)" id="photo" >
+      </div>
+      <h2>Navigation</h2>
+      <nav class="navigation">
+        <ul class="ul-navigation">
+          <li><a href="#about">Brief information about myself</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#code">Code Example</a></li>
+          <li><a href="#project">Project Example</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#english">English Level</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2 id="about">Brief information about myself</h2>
+      <p>
+        I was a content manager of few online shops (support and filling). Also
+        I am a blogger on Instagram (about 30 thousand subscribers, Ukraine). I
+        love creating advertising campaigns. After the war in Ukraine I had to
+        move from Kyiv to Canada.
+      </p>
+
+      <h2 id="contacts">Contacts</h2>
+      <div class="ul-contacts">
+        <ul>
+          <li>Location: T4N, Red Deer, Alberta, Canada</li>
+          <li>email: sandyrud.com@gmail.com</li>
+        </ul>
+      </div>
+
+      <h2 id="skills">Skills</h2>
+      <div class="ul-skills">
+        <ul>
+          <li>Strong Knowledge of Google Adwords, Adsense, Analytics</li>
+          <li>Basic Knowledge of HTML, JS, CSS</li>
+          <li>Hobby: Homestyler (interior design)</li>
+        </ul>
+      </div>
+      <h2 id="code">Code Example</h2>
+      <div class="code-centr">
+        <pre id="code-style">
+        <code>
+          function formatDate() {
+              let now = new Date();
+              let days = [
+                "Sunday",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+              ];
+              let dayW = days[now.getDay()];
+
+              let hours =
+          now.getHours() &lt; 10 ? "0" + now.getHours() : now.getHours();
+
+              let minutes =
+          now.getMinutes() &lt; 10 ? "0" + now.getMinutes() : now.getMinutes();
+
+              let fullDate = `${dayW}  ${hours}:${minutes}`;
+            let dataReload = document.querySelector("#day-today");
+          dataReload.innerHTML = `${fullDate}`;
+          }
+          formatDate();
+        </code>
+      </pre>
+      </div>
+
+      <h2 id="project">Project Example</h2>
+      <p>
+        <a href="https://github.com/Oleksandra-Rud" target="_blank"
+          >There are my projects - GitHub</a
+        >
+      </p>
+      <h2 id="education">Education</h2>
+      <div class="ul-education">
+        <ul>
+          <li>Master’s degree in Medical Devices and Systems</li>
+          <li>Basic level in SheCodes courses</li>
+          <li>10 years in Advertising</li>
+          <li>I had been learning Java Script for few weeks</li>
+        </ul>
+      </div>
+      <h2 id="english">English Level</h2>
+      <p>
+        I have B2 English level. In Canada I got my assessment with such scores:
+      </p>
+      <div class="ul-english">
+        <ul>
+          <li>Speaking: 6 / 8</li>
+          <li>Listening: 5 / 8</li>
+          <li>Writing: 5 / 8</li>
+          <li>Reading: 8 / 8</li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <a href="https://github.com/Oleksandra-Rud" target="_blank"
+        ><img src="github.png" alt="githublogo" id="gitimage" > My github</a
+      >
+
+      <a href="https://rs.school/js-en/" target="_blank"
+        ><img src="rsschool.png" alt="rsschoollogo" id="rssimage" >Rs.school
+        (Javascript/Front-end Mentoring Program (in English))</a
+      >
+
+      <div class="data">October, 2022</div>
+    </footer>
+  </body>
+</html>
