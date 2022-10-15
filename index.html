@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
     <title>Oleksandra Rudchenko CV</title>
   </head>
   <body>
@@ -12,7 +12,7 @@
       <h1>Oleksandra Rudchenko</h1>
       <h3>Frontend Developer, Marketing Specialist</h3>
       <div class="near-image">
-        <img src="img/Oleksandra.jpg" alt="present:)" id="photo" />
+        <img src="Oleksandra.jpg" alt="present:)" id="photo" >
       </div>
       <h2>Navigation</h2>
       <nav class="navigation">
@@ -70,10 +70,10 @@
               let dayW = days[now.getDay()];
 
               let hours =
-          now.getHours() < 10 ? "0" + now.getHours() : now.getHours();
+          now.getHours() &lt; 10 ? "0" + now.getHours() : now.getHours();
 
               let minutes =
-          now.getMinutes() < 10 ? "0" + now.getMinutes() : now.getMinutes();
+          now.getMinutes() &lt; 10 ? "0" + now.getMinutes() : now.getMinutes();
 
               let fullDate = `${dayW}  ${hours}:${minutes}`;
             let dataReload = document.querySelector("#day-today");
@@ -114,16 +114,12 @@
     </main>
     <footer>
       <a href="https://github.com/Oleksandra-Rud" target="_blank"
-        ><img src="img/github.png" alt="githublogo" id="gitimage" /> My
-        github</a
+        ><img src="github.png" alt="githublogo" id="gitimage" > My github</a
       >
 
       <a href="https://rs.school/js-en/" target="_blank"
-        ><img
-          src="img/rsschool.png"
-          alt="rsschoollogo"
-          id="rssimage"
-        />Rs.school (Javascript/Front-end Mentoring Program (in English))</a
+        ><img src="rsschool.png" alt="rsschoollogo" id="rssimage" >Rs.school
+        (Javascript/Front-end Mentoring Program (in English))</a
       >
 
       <div class="data">October, 2022</div>
